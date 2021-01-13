@@ -1,9 +1,6 @@
 [submodule "tei"]
 	path = tei
 	url = git@github.com:84000/data-tei.git
-[submodule "config"]
-	path = config
-	url = git@github.com:84000/data-config.git
 [submodule "translation-memory"]
 	path = translation-memory
 	url = git@github.com:84000/data-translation-memory.git
