@@ -23,7 +23,7 @@ git push
 
 Then anyone cloning the repo with `git clone --recursive git@github.com:84000/all-data.git` will get the new state of the submodules.
 
-If you also want to make each of your submodules track its master branch (not really needed as normally you won't introduce local changes to the submodules), this is the way to do it:
+If you also want to make each of your submodules track its master branch (not needed unless you plan to cd into a submodule's dir, change some files and commit them), this is the way to do it:
 ```sh
 git submodule foreach --recursive git checkout master
 ```
